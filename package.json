@@ -1,0 +1,14 @@
+{
+  "name": "jscypress",
+  "version": "1.0.0",
+  "description": "Test Cypress project",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "Inifnitejest",
+  "license": "MIT",
+  "devDependencies": {
+    "cypress": "^7.3.0"
+  }
+}
