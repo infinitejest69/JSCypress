@@ -24,7 +24,7 @@ it("BBC news Studio Test", function () {
     ".gel-1\\/1\\@xl > .gs-c-promo > .gs-c-promo-body > :nth-child(2) > .gs-o-list-inline > :nth-child(2) > .gs-c-section-link > span"
   ).click();
   // Check the app page
-  cy.eyesCheckWindow("Local news screen",);
+  cy.eyesCheckWindow("Local news screen");
   cy.eyesClose();
   /* ==== End Cypress Studio ==== */
 });

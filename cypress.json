@@ -1,1 +1,15 @@
-{ "experimentalStudio": true }
+{
+  "experimentalStudio": true,
+  "projectId": "BBC",
+  "reporter": "cypress-multi-reporters",
+  "reporterOptions": {
+    "reporterEnabled": "mochawesome",
+    "mochawesomeReporterOptions": {
+      "reportDir": "cypress/reports/mocha",
+      "quite": true,
+      "overwrite": true,
+      "html": true,
+      "json": true
+    }
+  }
+}

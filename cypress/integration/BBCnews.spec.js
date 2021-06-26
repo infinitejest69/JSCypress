@@ -16,8 +16,8 @@ describe("Open Local news", () => {
     ).click();
     cy.get('span:contains("Edinburgh")').first().click();
     cy.get('span:contains("Edinburgh, Fife & East Scotland")').should(
-      "have.length",
-      9
+      "have.property",
+      "length"
     );
   });
 });
