@@ -2,6 +2,9 @@
 Cypress.on("uncaught:exception", (err, runnable) => {
   return false;
 });
+// Cypress.SelectorPlayground.defaults({
+//   selectorPriority: ["id", "tag", "class", "attributes"],
+// });
 
 describe("Open Local news", () => {
   it("navigate to BBC news", () => {
