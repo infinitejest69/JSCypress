@@ -4,11 +4,17 @@
   "description": "Test Cypress project",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "test",
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run",
+    "cypress:appli": "APPLITOOLS_API_KEY='eAKCiWmqT5am3KCP2u8Ucz3zcxs6LMEl2N5ZSR3z2iw110' npm run cypress:open"
   },
   "author": "Inifnitejest",
   "license": "MIT",
   "devDependencies": {
-    "cypress": "^7.3.0"
+    "@applitools/eyes-cypress": "^3.22.0",
+    "cypress": "^7.6.0"
   }
 }
+
+
